@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    align-items: center;
+}
+
+.icon {
+    height: 25px;
+}
+
+.logo {
+    display: flex;
+    font-size: 36px;
+    color: blueviolet;
+    font-weight: 800;
+}
+
+.web {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.web-option {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.web-option a{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.option-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.web-option:last-child {
+    margin-right: 0px;
+}
+
+@media only screen and (max-width : 768px) {
+    .web-menu {
+        display: flex;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+}

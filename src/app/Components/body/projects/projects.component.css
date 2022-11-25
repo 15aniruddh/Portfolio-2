@@ -1,0 +1,12 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.section-title {
+    font-size: 200%;
+    font-weight: 700;
+}
